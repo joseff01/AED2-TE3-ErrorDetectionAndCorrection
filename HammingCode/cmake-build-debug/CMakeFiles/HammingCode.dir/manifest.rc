@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/josea/Documents/GitHub/AED2-TE3-ErrorDetectionAndCorrection/HammingCode/cmake-build-debug/CMakeFiles/HammingCode.dir/embed.manifest"

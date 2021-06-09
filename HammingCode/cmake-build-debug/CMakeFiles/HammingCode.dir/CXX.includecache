@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/josea/Documents/GitHub/AED2-TE3-ErrorDetectionAndCorrection/HammingCode/HammingCode.cpp
+HammingCode.h
+C:/Users/josea/Documents/GitHub/AED2-TE3-ErrorDetectionAndCorrection/HammingCode/HammingCode.h
+
+C:/Users/josea/Documents/GitHub/AED2-TE3-ErrorDetectionAndCorrection/HammingCode/HammingCode.h
+vector
+-
+iostream
+-
+
