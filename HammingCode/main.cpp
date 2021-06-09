@@ -28,11 +28,30 @@ int main() {
 
     //create error
     hammingVec[0] = 1;
+    for (int i : hammingVec) {
+        cout << i << " ";
+    }
+    cout << endl;
     //check if it detects the error
     if (hammingCode.detectError(hammingVec)){
         cout << "No Error Found" << endl;
     } else {
         cout << "Error Found" << endl;
     }
+
+    //Correcting error
+    hammingVec = hammingCode.correctError(hammingVec);
+    for (int i : hammingVec) {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    //Decode HammingCode
+    vec = hammingCode.decodeHammingCode(hammingVec);
+    for (int i : vec) {
+        cout << i << " ";
+    }
+    cout << endl;
+
 
 }
